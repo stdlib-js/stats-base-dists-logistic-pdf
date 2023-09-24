@@ -65,13 +65,18 @@ where `mu` is the location parameter and `s` is the scale parameter.
 ## Usage
 
 ```javascript
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-pdf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-logistic-pdf/tags). For example,
+
+```javascript
 import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-pdf@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-pdf@v0.1.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-pdf@esm/index.mjs';
 ```
 
 #### pdf( x, mu, s )
@@ -147,7 +152,7 @@ y = mypdf( 5.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-pdf@v0.1.0-esm/index.mjs';
+import pdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-logistic-pdf@esm/index.mjs';
 
 var mu;
 var s;
